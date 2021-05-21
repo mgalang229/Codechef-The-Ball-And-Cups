@@ -17,7 +17,7 @@ int main() {
 			// if 'c' falls in between the range of 'l' and 'r' (inclusive),
 			if (c >= l && c <= r) {
 				// let: c = initial position
-				//			x = final position
+				//	x = final position
 				// then the absolute distance between 'l' and 'c' (before swapping)
 				// will be equal to do absolute distance between 'r' and 'x' (after swapping)
 				// and to find the new position, simply solve for the value of 'x' and that
